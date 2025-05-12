@@ -21,9 +21,6 @@ setup(
     entry_points={
         'console_scripts': [
             'box_navigator = ros2_project_ed20ma22.box_navigator:main',
-            'box_detector = ros2_project_ed20ma22.box_detector:main',
-            'detect_objects = ros2_project_ed20ma22.detect_objects:main',
-            'traverse_map = ros2_project_ed20ma22.traverse_map:main',
         ],
     },
 )
